@@ -1,0 +1,42 @@
+// Variables
+
+//colors
+
+
+// Colors
+//
+$white:                      #fff !default; // for title text
+$dark-blue:                  #313C46 !default;
+$brand-red:                  #D92E42 !default;
+$darker-blue:                #24262C !default;
+$brand-orange:               #FF975D !default;
+$black:                      #222222 !default; // for normal text
+$black-light:                #383838 !default;
+$gray-dark:                  #808080 !default;
+$gray:                       #999999 !default;
+$gray-light:                 #a8adae !default; // for description text
+$gray-lighter:               #b2b2b2 !default; // for tips text
+$gray-lightest:              #F5F9FA !default; // for separator bg
+
+$blue-dark:                  #567fbc !default; // for fix-bar bg
+$blue:                       #1190ea !default; // for link text
+$blue-light:                 #2190e7 !default; // for flight ticket promotion text
+$orange:                     #fd7222 !default; // for price text
+//$red:                        #f33531 !default;
+$green:                      #2caa3f !default; // for price discount tag text
+$green-light:                #4CD864 !default; // for success text
+
+
+
+
+$red:                         #d92e42 !default;
+
+$input-bg:                    #fff;
+$input-border:                #dfdfdf;
+$input-border-focus:          lighten($red, 8%);
+$input-padding-x:             12px;
+$input-padding-y:             8px;
+
+//font
+
+$title-label-size:            1.17em !default;

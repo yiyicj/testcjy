@@ -1,0 +1,36 @@
+@import './vars/index';
+@import './mixins/index';
+@import './base/text';
+@import './base/form';
+@import './base/clearfix';
+@import './base/position';
+@import './modal';
+
+$base: 375;
+@function vw($px) {
+  @return ($px / $base) * 100vw;
+}
+
+html,body,#content, #app {
+  height: 100%;
+}
+
+body{
+  font-size: vw(16);
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100% !important;
+  background-color: #fff;
+}
+
+.iphonex-fit {
+  padding-bottom: constant(safe-area-inset-bottom); /* 兼容 iOS < 11.2 */
+  padding-bottom: env(safe-area-inset-bottom); /* 兼容 iOS >= 11.2 */
+}
+
+// .gt-svg{
+//   width: 1rem;
+//   height: 1rem;
+//   vertical-align: text-bottom;
+// }

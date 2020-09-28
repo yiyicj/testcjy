@@ -1,0 +1,15 @@
+.todo-item {
+  text-align: left;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #1080ff;
+  padding: 12px 0;
+  list-style: none;
+  input[type=checkbox]{
+    float: right;
+  }
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  color: #A3A0A0;
+}

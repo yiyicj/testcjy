@@ -1,0 +1,97 @@
+//@import "vars/index";
+//@import "mixins/text";
+
+// Text Styles
+
+// Generate contextual modifier classes for font size and weight.
+@font-face {
+  font-family: Regular;
+  src: local("PingFangSC-Regular"), local(sans-serif);
+}
+
+@font-face {
+  font-family: Medium;
+  src: local("PingFangSC-Medium"), local(sans-serif);
+}
+
+@font-face {
+  font-family: Light;
+  src: local("PingFangSC-Light"), local(sans-serif);
+}
+
+@font-face {
+  font-family: Semibold;
+  src: local("PingFangSC-Semibold"), local(sans-serif);
+}
+
+
+// Text alignment
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+.text-lighter {
+  font-weight: lighter;
+}
+
+// bold
+.text-bold {
+  font-weight: bold;
+}
+.text-bolder {
+  font-weight: bolder;
+}
+
+// ellipsis
+.text-ellipsis {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-clamp2 {
+  display: -webkit-box;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+// decoration
+.text-underline {
+  text-decoration: underline;
+}
+.text-overline {
+  text-decoration: overline;
+}
+.text-linethrough {
+  text-decoration: line-through;
+}
+
+.label-h3{
+  margin: 0.5em 0;
+  font-size: 1.17em;
+}
+
+.text-pink {
+  color: #ff5350;
+}
+
+.text-orange {
+  color: #FF650A;
+}
+
+.text-gray {
+  color: #3c3c3c;
+}
+
+.text-overflow {
+  overflow-y: auto;
+}

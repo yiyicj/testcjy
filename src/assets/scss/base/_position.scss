@@ -1,0 +1,16 @@
+.float-l{
+  float: left;
+}
+.float-r {
+  float: right;
+}
+.align-container{
+  position: relative;
+}
+
+.vertical-align{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

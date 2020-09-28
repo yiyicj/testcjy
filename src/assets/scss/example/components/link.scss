@@ -1,0 +1,7 @@
+.m-link {
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  margin: 0 1rem;
+}

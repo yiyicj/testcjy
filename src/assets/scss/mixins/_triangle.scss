@@ -1,0 +1,19 @@
+/*
+* direction optionals: down, up, right, left
+*/
+
+@mixin triangle($direction: down, $size: 10px, $color: black){
+  width: 0;
+  height: 0;
+  border: $size solid transparent;
+
+  @if $direction == right {
+    border-left: $size solid $color;
+  } @else if $direction == left {
+    border-right: $size solid $color;
+  } @else if $direction == up {
+    border-bottom: $size solid $color;
+  } @else {
+    border-top: $size solid $color;
+  }
+}
