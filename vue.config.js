@@ -3,7 +3,7 @@ const path = require('path')
 const TerserPlugin = require('terser-webpack-plugin')
 
 module.exports = {
-  publicPath: '/cj/',
+  publicPath: '',
   productionSourceMap: false,
   devServer: {
     // open: true,
