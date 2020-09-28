@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-27 17:43:55
- * @LastEditTime: 2020-09-28 22:43:56
+ * @LastEditTime: 2020-09-29 00:17:26
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /huoli/web-huoli-v2/src/views/AtestPage/index.vue
@@ -103,7 +103,7 @@
         this.showImgModal = true
       },
       goDetail(url) {
-        location.assign(url || 'https://baike.baidu.com/item/%E9%95%BF%E6%B1%9F%E4%BA%91/16506795?fr=aladdin')
+        location.assign(url || 'http://news.hbtv.com.cn/hbxw')
       },
       queryData() {
         /**外网访问接口失败将为了测试页面只能将之前获取的数据静态引入 */
