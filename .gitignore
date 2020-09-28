@@ -1,7 +1,5 @@
 .DS_Store
 node_modules
-/dist
-AtestPage/data
 
 # local env files
 .env.local
